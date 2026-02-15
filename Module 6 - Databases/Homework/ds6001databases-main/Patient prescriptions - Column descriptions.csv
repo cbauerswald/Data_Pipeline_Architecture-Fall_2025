@@ -1,0 +1,14 @@
+Column,Description,Notes
+patient_name,Patient's first and last name,No two patients share both the same name and date of birth
+date_of_birth,Patient's date of birth,
+prescribed_drug,Brand name of the drug prescribed during the visit,"No two drugs share the same name and no patient receives the same prescription more than once. patient_name, date_of_birth, and prescribed_drug together are a primary key for the data listed under the ""Data"" tab of this spreadsheet"
+prior_conditions,List of patient's prior medical conditions,
+patient_sex,Patient's biological sex at birth,Different from gender identity
+patient_insurance,Company providing patient's primary health insurance ,Patients do not change their insurance provider
+drug_maker,Pharmaceutical company that makes the prescribed drug,
+drug_cost,Negotiated cost of prescribed drug,
+prescribing_physician,Name of the physician who issued the prescription,No two physicians in the data share the same name
+physician_medschool,Medical school where prescribing physician received degree ,
+physician_years_experience,Number of years prescribing physician has worked as a physician,
+hospital,Hospital where prescribing physician is employed,Every physician in the data works at one hospital and no two hospitals share the same name
+hospital_location,Location of hospital,Every hospital has only one location
