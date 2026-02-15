@@ -1,0 +1,24 @@
+#non-homework folders
+Live\ Coding/
+Reading/
+
+# Submission files
+*.html
+*.pdf
+*.docx
+*.zip
+
+# environment variables
+*.env
+
+# local database files
+*.db
+
+# VScode
+.vscode/
+
+# jupyter notebook
+.ipynb_checkpoints
+
+# large data files
+V-Dem-CY-Full+Others-v15.csv
